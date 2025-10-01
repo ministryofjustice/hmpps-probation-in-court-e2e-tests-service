@@ -1,11 +1,11 @@
 version: "3"
 services:
-  hmpps-template-kotlin:
+  hmpps-probation-in-court-e2e-tests-service:
     build:
       context: .
     networks:
       - hmpps
-    container_name: hmpps-template-kotlin
+    container_name: hmpps-probation-in-court-e2e-tests-service
     ports:
       - "8080:8080"
     healthcheck:

@@ -1,10 +1,10 @@
 info.app:
-  name: HMPPS Template Kotlin
+  name: HMPPS Probation In Court E2E Tests Service
   version: 1.0
 
 spring:
   application:
-    name: hmpps-template-kotlin
+    name: hmpps-probation-in-court-e2e-tests-service
   codec:
     max-in-memory-size: 10MB
 
